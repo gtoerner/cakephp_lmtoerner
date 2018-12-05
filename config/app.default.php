@@ -197,17 +197,18 @@ return [
      */
     'EmailTransport' => [
         'default' => [
-            'className' => 'Cake\Mailer\Transport\MailTransport',
+            //'className' => 'Cake\Mailer\Transport\MailTransport',
+            'className' => 'Smtp',
             /*
              * The following keys are used in SMTP transports:
              */
-            'host' => 'localhost',
-            'port' => 25,
+            'host' => 'mail.lmtoe.com',
+            'port' => 465,
             'timeout' => 30,
-            'username' => null,
-            'password' => null,
+            'username' => 'info@lmtoe.com',
+            'password' => 'Fuckyou69!',
             'client' => null,
-            'tls' => null,
+            'tls' => true,
             'url' => env('EMAIL_TRANSPORT_DEFAULT_URL', null),
         ],
     ],
@@ -224,7 +225,7 @@ return [
     'Email' => [
         'default' => [
             'transport' => 'default',
-            'from' => 'you@localhost',
+            'from' => 'info@lmtoe.com',
             //'charset' => 'utf-8',
             //'headerCharset' => 'utf-8',
         ],

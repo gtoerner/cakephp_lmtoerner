@@ -19,6 +19,9 @@ use Cake\Http\Exception\ForbiddenException;
 use Cake\Http\Exception\NotFoundException;
 use Cake\View\Exception\MissingTemplateException;
 
+use App\Controller\AppController;
+use App\Form\ContactForm;
+
 /**
  * Static content controller
  *
@@ -71,4 +74,41 @@ class PagesController extends AppController
     {
         $this->set('tt', 'tttttttttttttttt');
     }
+    
+    public function contact()
+    {
+        $contact = new ContactForm();
+        if ($this->request->is('post')) {
+            if ($contact->execute($this->request->getData())) {
+                $this->Flash->success('We will get back to you soon.');
+            } else {
+                $this->Flash->error('There was a problem submitting your form.');
+            }
+        }
+        $this->set('contact', $contact);
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
