@@ -80,7 +80,8 @@ class PagesController extends AppController
         $contact = new ContactForm();
         if ($this->request->is('post')) {
             if ($contact->execute($this->request->getData())) {
-                $this->Flash->success('We will get back to you soon.');
+                //$this->Flash->success('We will get back to you soon.');
+                $this->redirect(['controller' => 'Pages', 'action' => 'display', 'thankyou']);
             } else {
                 $this->Flash->error('There was a problem submitting your form.');
             }

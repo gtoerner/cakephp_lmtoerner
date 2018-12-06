@@ -16,7 +16,7 @@
 
                 <br>
                 <p>
-                    <a href="/pages/contact" title="Contact us"><i class="fa fa-phone"></i>
+                    <a href="/contact" title="Contact us"><i class="fa fa-phone"></i>
                         <span class="hidden-xs hidden-sm hidden-md">Contact us </span></a>
                     for questions or if you are ready to place an order
                 </p>

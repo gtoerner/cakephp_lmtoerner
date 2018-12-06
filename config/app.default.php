@@ -198,7 +198,7 @@ return [
     'EmailTransport' => [
         'default' => [
             //'className' => 'Cake\Mailer\Transport\MailTransport',
-            'className' => 'Smtp',
+            'className' => 'Mail',
             /*
              * The following keys are used in SMTP transports:
              */

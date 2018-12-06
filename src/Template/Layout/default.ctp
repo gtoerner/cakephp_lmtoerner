@@ -14,7 +14,7 @@ $cakeDescription = 'L.M.Toerner';
     <?= $this->Html->meta('icon') ?>
 
     <?= $this->Html->css(['/bootstrap/css/bootstrap.min.css', 
-        '/font-awesome/css/font-awesome.min.css', 'css', 'stylesheet', 
+        '/font-awesome/css/font-awesome.min.css', 'stylesheet', 
         '/jquery/swiper/css/swiper.min.css', '/jquery/swiper/css/opencart.css']); ?>
 
     <?= $this->Html->script(['/jquey/jquery-2.1.1.min.js', 
@@ -25,7 +25,7 @@ $cakeDescription = 'L.M.Toerner';
     <?= $this->fetch('script') ?>
 
 </head>
-<body>
+<body <?= $this->fetch('bodystyle') ?> >
     <header>
 <nav id="top">
     <div class="container">
@@ -34,7 +34,7 @@ $cakeDescription = 'L.M.Toerner';
         <div id="top-links" class="nav pull-right">
             <ul class="list-inline">
 
-                <li><a href="/pages/contact" title="Contact"><i class="fa fa-phone"></i>
+                <li><a href="/contact" title="Contact"><i class="fa fa-phone"></i>
                     <span class="hidden-xs hidden-sm hidden-md">708-829-0631</span></a></li>
                 <li><a href="#" title="Shopping Cart"><i
                         class="fa fa-shopping-cart"></i> <span
@@ -57,6 +57,12 @@ $cakeDescription = 'L.M.Toerner';
                         'url' => ['controller' => 'Pages', 'action' => 'display', 'home', '_full' => true],
                         ['class' => 'img-responsive']
                     ]); ?>
+                </div>
+            </div>
+            <div class="col-sm-pull-0">
+                <div>
+                    <h4><p>Don't see what you are looking for? </p>
+                        <p> We can accommodate most needs.  <a href="/contact" title="Contact">Contact us</a></p></h4>
                 </div>
             </div>
         </div>
@@ -91,7 +97,7 @@ $cakeDescription = 'L.M.Toerner';
                 </li>
 
                 <li><?php echo $this->Html->link('About', '/pages/about', ['class' => '']);?></li>
-                <li><?php echo $this->Html->link('Contact', '/pages/contact', ['class' => '']);?></li>
+                <li><?php echo $this->Html->link('Contact', '/contact', ['class' => '']);?></li>
 
             </ul>
             </nav>
@@ -125,7 +131,7 @@ $cakeDescription = 'L.M.Toerner';
             <div class="col-sm-3">
                 <h5>Customer Service</h5>
                 <ul class="list-unstyled">
-                    <li><a href="/pages/contact">Contact Us</a></li>
+                    <li><a href="/contact">Contact Us</a></li>
                     <li><a href="/pages/returns">Returns</a></li>
                     <li><a href="/pages/sitemap">Site Map</a></li>
                 </ul>
