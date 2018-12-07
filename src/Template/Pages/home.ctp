@@ -6,7 +6,8 @@ $this->assign('title', " Home");
 //$this->assign('bodystyle', 'style="background-image:url(/img/photorugby1.jpeg)"')
 ?> 
 
-<h1>L.M.Toerner is the </h1>
+<h1><center>YOUR ONE STOP FOR <b>UNIFORMS, <br>
+            TEAM GEAR</b> AND <b>SPIRIT WEAR </b></center></h1>
 
     <br><br>
 
