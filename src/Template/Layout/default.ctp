@@ -12,13 +12,18 @@ $cakeDescription = 'L.M.Toerner';
         <?= $this->fetch('title') ?>
     </title>
     <?= $this->Html->meta('icon') ?>
-
-    <?= $this->Html->css(['/bootstrap/css/bootstrap.min.css', 
-        '/font-awesome/css/font-awesome.min.css', 'stylesheet', 
-        '/jquery/swiper/css/swiper.min.css', '/jquery/swiper/css/opencart.css']); ?>
-
-    <?= $this->Html->script(['/jquey/jquery-2.1.1.min.js', 
-        '/bootstrap/js/bootstrap.min.js', '/jquery/swiper/js/swiper.jquery.js', 'common']); ?>
+    
+<script src="/static/jquery/jquery-2.1.1.min.js" type="text/javascript"></script>
+<link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+<script src="/static/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<link href="/static/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="/static/css" rel="stylesheet" type="text/css">
+<link href="/static/stylesheet.css" rel="stylesheet">
+<link href="/static/jquery/swiper/css/swiper.min.css" type="text/css" rel="stylesheet" media="screen">
+<link href="/static/jquery/swiper/css/opencart.css" type="text/css" rel="stylesheet" media="screen">
+<script src="/static/jquery/swiper/js/swiper.jquery.js" type="text/javascript"></script>
+<script src="/static/common.js" type="text/javascript"></script>
+<link href="/img/cart.png" rel="icon">
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
