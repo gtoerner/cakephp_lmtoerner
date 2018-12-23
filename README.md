@@ -1,5 +1,7 @@
 # CakePHP Application Skeleton
 
+after cloning, you MUST run 'composer install' to pull in all the vendor files
+
 [![Build Status](https://img.shields.io/travis/cakephp/app/master.svg?style=flat-square)](https://travis-ci.org/cakephp/app)
 [![Total Downloads](https://img.shields.io/packagist/dt/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
 
