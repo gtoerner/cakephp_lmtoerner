@@ -44,8 +44,11 @@ $this->assign('title', " Contact");
                 </div>
             </div>
 
-            <form method="post" accept-charset="utf-8" action="/contact" class="form-horizontal">
-                <input type="hidden" name="_csrfToken" autocomplete="off" value="b32ab730f41ba75ae043e79ded5d6621c1a7d120d7ddbdf2e891a106450cec40f02c02ddcd12441923205ac6b316a455d56ea2e24a961089e263433a22e168ac">
+<!--            <form method="post" accept-charset="utf-8" action="/contact" class="form-horizontal">
+                <input type="hidden" name="_csrfToken" autocomplete="off" value="b32ab730f41ba75ae043e79ded5d6621c1a7d120d7ddbdf2e891a106450cec40f02c02ddcd12441923205ac6b316a455d56ea2e24a961089e263433a22e168ac"> -->
+            <?php
+                echo $this->Form->create($contact);
+?>
                 <fieldset>
                     <legend>Contact Us</legend>
                     <div class="form-group required">
@@ -67,7 +70,7 @@ $this->assign('title', " Contact");
                         </div>
                     </div>
                     <div class="form-group required">
-                        <label class="col-sm-2 control-label" for="body">Body</label>
+                        <label class="col-sm-2 control-label" for="body">Message</label>
                         <div class="col-sm-10">
                             <textarea name="body" id="body" rows="10" class="form-control"></textarea>
                         </div>
@@ -79,6 +82,6 @@ $this->assign('title', " Contact");
                     </div>
                 </div>
             </form>
-
         </div>
+    </div>
     </div>
