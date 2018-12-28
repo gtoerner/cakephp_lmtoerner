@@ -197,3 +197,6 @@ Type::build('timestamp')
 //Inflector::rules('irregular', ['red' => 'redlings']);
 //Inflector::rules('uninflected', ['dontinflectme']);
 //Inflector::rules('transliteration', ['/å/' => 'aa']);
+
+$this->addPlugin('CakeDC/Users', ['autoload' => true]);
+

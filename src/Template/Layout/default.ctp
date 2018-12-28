@@ -41,6 +41,27 @@ $cakeDescription = 'L.M.Toerner';
 
                 <li><a href="/contact" title="Contact"><i class="fa fa-phone"></i>
                     <span class="hidden-xs hidden-sm hidden-md">708-829-0631</span></a></li>
+                    
+                <li class="dropdown"><a href="#account" title="My Account"
+                                        class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <span
+                        class="hidden-xs hidden-sm hidden-md">My Account</span> <span class="caret"></span></a>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <?php
+                        if ($this->request->session()->read('Auth.User.id'))
+                        {
+                            echo '<li><a href="/users/users/logout">Logout</a></li>';
+                        }
+                        else 
+                        {
+                            echo '<li><a href="/users/users/register">Register</a></li>';
+                            echo '<li><a href="/users/users/login">Login</a></li>';
+                        }
+                        ?>
+                            
+                        
+                    </ul>
+                </li>
+
                 <li><a href="#" title="Shopping Cart"><i
                         class="fa fa-shopping-cart"></i> <span
                         class="hidden-xs hidden-sm hidden-md">Shopping Cart</span></a></li>

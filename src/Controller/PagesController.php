@@ -33,6 +33,17 @@ class PagesController extends AppController
 {
 
     /**
+    * Override to allow page to load without being logged in
+    * Will need to have *any* pages with required login be in separate Controller
+    */
+    public function initialize()
+    {
+        parent::initialize();
+        $this->Auth->allow('display');
+        $this->Auth->allow('contact');
+    }
+
+    /**
      * Displays a view
      *
      * @param array ...$path Path segments.

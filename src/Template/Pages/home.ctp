@@ -6,8 +6,12 @@ $this->assign('title', " Home");
 //$this->assign('bodystyle', 'style="background-image:url(/img/photorugby1.jpeg)"')
 ?> 
 
-<center><img src="/img/cover2.jpg"
+<center>
+    <h1><i>Your One Stop Shop for Uniforms, Team Gear, and Spirit Wear</i></h1>
+    <!--
+    <img src="/img/cover2.jpg" style="width:1100px;height:500px;"
     alt="L.M.Toerner Custom Sportwear" title="L.M.Toerner Custom Sportwear" class="img-responsive">
+    -->
 </center>
 
     <br><br>
@@ -26,50 +30,46 @@ $this->assign('title', " Home");
                 <div class="swiper-slide text-center swiper-slide-prev" data-swiper-slide-index="0"
                      style="width: 1132px; margin-right: 30px;"><a
                         href="/pages/baseball"><img
-                        src="/img/coverbaseball.jpg" style="width:500px;height:325px;"
+                        src="/img/lmtbaseball.jpg" style="width:1000px;height:500px;"
                         alt="Baseball" title="Baseball" class="img-responsive center-block"></a>
                 </div>
                 <div class="swiper-slide text-center swiper-slide-active" data-swiper-slide-index="1"
                      style="width: 1132px; margin-right: 30px;"><a
                         href="/pages/basketball"><img
-                        src="/img/coverbasketball.jpg" style="width:300px;height:325px;"
+                        src="/img/lmtbasketball.jpg" style="width:1000px;height:500px;"
                         alt="Basketball" title="Basketball" class="img-responsive center-block"></a>
                 </div>
                 <div class="swiper-slide text-center swiper-slide-next" data-swiper-slide-index="2"
                      style="width: 1132px; margin-right: 30px;"><a
-                        href="/pages/cycling"><img style="width:500px;height:325px;"
-                        src="/img/photocycling.jpeg" title="Cycling" alt="Cycling" class="img-responsive center-block"></a>
+                        href="/pages/cycling"><img style="width:1000px;height:500px;"
+                        src="/img/lmtcycling.jpg" title="Cycling" alt="Cycling" class="img-responsive center-block"></a>
                 </div>
                 <div class="swiper-slide text-center" data-swiper-slide-index="3"
                      style="width: 1132px; margin-right: 30px;"><a
-                        href="/pages/hockey"><img style="width:500px;height:325px;"
-                        src="/img/coverhockey.jpg" alt="Hockey" title="Hockey" class="img-responsive center-block"></a>
+                        href="/pages/hockey"><img style="width:1000px;height:500px;"
+                        src="/img/lmthockey.jpg" alt="Hockey" title="Hockey" class="img-responsive center-block"></a>
                 </div>
                 <div class="swiper-slide text-center" data-swiper-slide-index="4"
                      style="width: 1132px; margin-right: 30px;"><a
                         href="/pages/rugby"><img
-                        src="/img/photorugby1.jpeg" style="width:500px;height:325px;"
+                        src="/img/lmtrugby.jpg" style="width:1000px;height:500px;"
                         alt="Rugby" title="Rugby" class="img-responsive center-block"></a>
                 </div>
                 <div class="swiper-slide text-center" data-swiper-slide-index="5"
                      style="width: 1132px; margin-right: 30px;"><a
-                        href="/pages/soccer"><img style="width:500px;height:325px;"
-                        src="/img/photosoccer.jpeg" alt="Soccer" title="Soccer" class="img-responsive center-block"></a>
+                        href="/pages/soccer"><img style="width:1000px;height:500px;"
+                        src="/img/lmtsoccer.jpg" alt="Soccer" title="Soccer" class="img-responsive center-block"></a>
                 </div>
                 <div class="swiper-slide text-center" data-swiper-slide-index="6"
                      style="width: 1132px; margin-right: 30px;"><a
-                        href="/pages/softball"><img style="width:500px;height:325px;"
-                        src="/img/photosoftball.jpeg" alt="Softball" title="Softball" class="img-responsive center-block"></a>
+                        href="/pages/softball"><img style="width:1000px;height:500px;"
+                        src="/img/lmtsoftball.jpg" alt="Softball" title="Softball" class="img-responsive center-block"></a>
                 </div>
-                <div class="swiper-slide text-center" data-swiper-slide-index="7"
-                     style="width: 1132px; margin-right: 30px;"><a
-                        href="/pages/rugby"><img style="width:500px;height:325px;"
-                        src="/img/coverrugby.jpg" alt="Rugby" title="Rugby" class="img-responsive center-block"></a>
-                </div>
+              
                 <div class="swiper-slide text-center swiper-slide-duplicate swiper-slide-duplicate-prev"
                      data-swiper-slide-index="0" style="width: 1132px; margin-right: 30px;"><a
-                        href="/pages/baseball"><img style="width:500px;height:325px;"
-                        src="/img/photobaseball.jpeg" alt="Baseball" title="Baseball" class="img-responsive center-block"></a>
+                        href="/pages/baseball"><img style="width:1000px;height:500px;"
+                        src="/img/lmtbaseball.jpg" alt="Baseball" title="Baseball" class="img-responsive center-block"></a>
                 </div>
             </div>
         </div>
