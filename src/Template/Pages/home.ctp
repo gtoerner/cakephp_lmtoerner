@@ -29,41 +29,74 @@ $this->assign('title', " Home");
                 </div>
                 <div class="swiper-slide text-center swiper-slide-prev" data-swiper-slide-index="0"
                      style="width: 1132px; margin-right: 30px;"><a
-                        href="/pages/baseball"><img
-                        src="/img/lmtbaseball.jpg" style="width:1000px;height:500px;"
-                        alt="Baseball" title="Baseball" class="img-responsive center-block"></a>
+                        href="/pages/baseball">
+                        <picture>
+                            <source srcset="/img/lmtbaseball-256.jpg" media="(max-width: 400px)">
+                            <source srcset="/img/lmtbaseball-512.jpg" media="(max-width: 800px)">
+                            <source srcset="/img/lmtbaseball-1024.jpg">
+                        <img src="/img/lmtbaseball-1024.jpg" 
+                        alt="Baseball" title="Baseball" class="img-responsive center-block">
+                        </picture></a>
                 </div>
                 <div class="swiper-slide text-center swiper-slide-active" data-swiper-slide-index="1"
                      style="width: 1132px; margin-right: 30px;"><a
-                        href="/pages/basketball"><img
-                        src="/img/lmtbasketball.jpg" style="width:1000px;height:500px;"
-                        alt="Basketball" title="Basketball" class="img-responsive center-block"></a>
+                        href="/pages/basketball">
+                        <picture>
+                            <source srcset="/img/lmtbasketball-256.jpg" media="(max-width: 400px)">
+                            <source srcset="/img/lmtbasketball-512.jpg" media="(max-width: 800px)">
+                            <source srcset="/img/lmtbasketball-1024.jpg">
+                        <img src="/img/lmtbasketball-1024.jpg" 
+                        alt="Basketball" title="Basketball" class="img-responsive center-block">
+                        </picture></a>
                 </div>
                 <div class="swiper-slide text-center swiper-slide-next" data-swiper-slide-index="2"
                      style="width: 1132px; margin-right: 30px;"><a
-                        href="/pages/cycling"><img style="width:1000px;height:500px;"
-                        src="/img/lmtcycling.jpg" title="Cycling" alt="Cycling" class="img-responsive center-block"></a>
+                        href="/pages/cycling">
+                        <picture>
+                            <source srcset="/img/lmtcycling-256.jpg" media="(max-width: 400px)">
+                            <source srcset="/img/lmtcycling-512.jpg" media="(max-width: 800px)">
+                            <source srcset="/img/lmtcycling-1024.jpg">
+                        <img src="/img/lmtcycling-1024.jpg" title="Cycling" alt="Cycling" class="img-responsive center-block">
+                    </picture></a>
                 </div>
                 <div class="swiper-slide text-center" data-swiper-slide-index="3"
                      style="width: 1132px; margin-right: 30px;"><a
-                        href="/pages/hockey"><img style="width:1000px;height:500px;"
-                        src="/img/lmthockey.jpg" alt="Hockey" title="Hockey" class="img-responsive center-block"></a>
+                        href="/pages/hockey">
+                        <picture>
+                            <source srcset="/img/lmthockey-256.jpg" media="(max-width: 400px)">
+                            <source srcset="/img/lmthockey-512.jpg" media="(max-width: 800px)">
+                            <source srcset="/img/lmthockey-1024.jpg">
+                        <img src="/img/lmthockey-1024.jpg" alt="Hockey" title="Hockey" class="img-responsive center-block">
+                        </picture></a>
                 </div>
                 <div class="swiper-slide text-center" data-swiper-slide-index="4"
                      style="width: 1132px; margin-right: 30px;"><a
-                        href="/pages/rugby"><img
-                        src="/img/lmtrugby.jpg" style="width:1000px;height:500px;"
-                        alt="Rugby" title="Rugby" class="img-responsive center-block"></a>
+                        href="/pages/rugby">
+                        <picture>
+                            <source srcset="/img/lmtrugby-256.jpg" media="(max-width: 400px)">
+                            <source srcset="/img/lmtrugby-512.jpg" media="(max-width: 800px)">
+                            <source srcset="/img/lmtrugby-1024.jpg">
+                        <img src="/img/lmtrugby-1024.jpg" alt="Rugby" title="Rugby" class="img-responsive center-block">
+                        </picture></a>
                 </div>
                 <div class="swiper-slide text-center" data-swiper-slide-index="5"
                      style="width: 1132px; margin-right: 30px;"><a
-                        href="/pages/soccer"><img style="width:1000px;height:500px;"
-                        src="/img/lmtsoccer.jpg" alt="Soccer" title="Soccer" class="img-responsive center-block"></a>
+                        href="/pages/soccer">
+                        <picture>
+                            <source srcset="/img/lmtsoccer-256.jpg" media="(max-width: 400px)">
+                            <source srcset="/img/lmtsoccer-512.jpg" media="(max-width: 800px)">
+                            <source srcset="/img/lmtsoccer-1024.jpg">
+                        <img src="/img/lmtsoccer-1024.jpg" alt="Soccer" title="Soccer" class="img-responsive center-block">
+                        </picture></a>
                 </div>
                 <div class="swiper-slide text-center" data-swiper-slide-index="6"
                      style="width: 1132px; margin-right: 30px;"><a
-                        href="/pages/softball"><img style="width:1000px;height:500px;"
-                        src="/img/lmtsoftball.jpg" alt="Softball" title="Softball" class="img-responsive center-block"></a>
+                        href="/pages/softball">
+                        <picture>
+                            <source srcset="/img/lmtsoftball-256.jpg" media="(max-width: 400px)">
+                            <source srcset="/img/lmtsoftball-512.jpg" media="(max-width: 800px)">
+                            <source srcset="/img/lmtsoftball-1024.jpg">
+                        <img src="/img/lmtsoftball-1024.jpg" alt="Softball" title="Softball" class="img-responsive center-block"></a>
                 </div>
               
                 <div class="swiper-slide text-center swiper-slide-duplicate swiper-slide-duplicate-prev"
