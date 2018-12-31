@@ -52,30 +52,35 @@ $this->assign('title', " Contact");
                 <fieldset>
                     <legend>Contact Us</legend>
                     <div class="form-group required">
-                        <label class="col-sm-1 control-label" for="name">Name:</label>
+  <!-- setting control-label class makes it have red astrisk next to the label
+                        <label class="col-sm-1 control-label" for="name">Name:</label> -->
+                        <label class="col-sm-1" for="name">Name:</label>
                         <div class="col-sm-10">
                             <input type="text" name="name" required="required" id="name" class="form-control">
                         </div>
                     </div>
                     <br>
+                    <br>
                     <div class="form-group required">
-                        <label class="col-sm-1 control-label" for="email">Email:</label>
+                        <label class="col-sm-1" for="email">Email:</label>
                         <div class="col-sm-10">
                             <input type="email" name="email" required="required" id="email" class="form-control">
                         </div>
                     </div>
                     <br>
+                    <br>
                     <div class="form-group required">
-                        <label class="col-sm-1 control-label" for="phone">Phone:</label>
+                        <label class="col-sm-1" for="phone">Phone:</label>
                         <div class="col-sm-10">
-                            <input type="tel" name="phone" id="phone" class="form-control">
+                            <input type="tel" name="phone" required="required" id="phone" class="form-control">
                         </div>
                     </div>
                     <br>
+                    <br>
                     <div class="form-group required">
-                        <label class="col-sm-1 control-label" for="body">Message:</label>
+                        <label class="col-sm-1" for="body">Message:</label>
                         <div class="col-sm-10">
-                            <textarea name="body" id="body" rows="10" class="form-control"></textarea>
+                            <textarea name="body" required="required" id="body" rows="10" class="form-control"></textarea>
                         </div>
                     </div>
                 </fieldset>
