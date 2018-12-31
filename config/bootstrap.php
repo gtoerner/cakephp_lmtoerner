@@ -200,3 +200,4 @@ Type::build('timestamp')
 
 $this->addPlugin('CakeDC/Users', ['autoload' => true]);
 
+//Configure::write('Users.emailConfig', 'default');

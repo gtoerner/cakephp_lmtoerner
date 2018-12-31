@@ -80,8 +80,10 @@ $this->assign('title', " Contact");
                     </div>
                 </fieldset>
                 <div class="buttons">
-                    <div class="pull-right">  
-                        <input class="btn btn-primary" type="submit" value="Submit">    
+                    <!-- <div class="pull-right">   -->
+                    <label class="col-sm-1 control-label"></label>
+                    <div class="col-sm-10">  
+                        <input class="btn btn-primary" type="submit" value="Submit">
                     </div>
                 </div>
             </form>

@@ -1,11 +1,59 @@
 <?php
-
-//$this->extend('/Layout/default');
-
-$this->assign('title', " Terms");
-
+/**
+ * Copyright 2010 - 2017, Cake Development Corporation (https://www.cakedc.com)
+ *
+ * Licensed under The MIT License
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * @copyright Copyright 2010 - 2017, Cake Development Corporation (https://www.cakedc.com)
+ * @license MIT License (http://www.opensource.org/licenses/mit-license.php)
+ */
+use Cake\Core\Configure;
 
 ?>
+<div class="users form large-10 medium-9 columns">
+    <?= $this->Form->create($user); ?>
+    <fieldset>
+        <legend><?= __d('CakeDC/Users', 'Please Register') ?></legend>
+        <?php
+        echo $this->Form->control('username', ['label' => __d('CakeDC/Users', 'Username: '), 'class'=>'form-control']);
+        echo '<br>';
+        echo $this->Form->control('email', ['label' => __d('CakeDC/Users', 'Email: '), 'class'=>'form-control']);
+        echo '<br>';
+        echo $this->Form->control('password', ['label' => __d('CakeDC/Users', 'Password: '), 'class'=>'form-control']);
+        echo '<br>';
+        echo $this->Form->control('password_confirm', [
+            'type' => 'password',
+            'label' => __d('CakeDC/Users', 'Confirm password: '), 'class'=>'form-control'
+        ]);
+        echo '<br>';
+        echo $this->Form->control('first_name', ['label' => __d('CakeDC/Users', 'First name: '), 'class'=>'form-control']);
+        echo '<br>';
+        echo $this->Form->control('last_name', ['label' => __d('CakeDC/Users', 'Last name: '), 'class'=>'form-control']);
+        echo '<br>';
+        if (Configure::read('Users.Tos.required')) {
+            echo $this->Form->control('tos', ['type' => 'checkbox', 'label' => __d('CakeDC/Users', 'Accept TOS Conditions?'), 'required' => true]);
+        }
+        if (Configure::read('Users.reCaptcha.registration')) {
+            echo $this->User->addReCaptcha();
+        }
+        ?>
+
+        <!-- Trigger the modal with a button -->
+  <a data-toggle="modal" href="#myModal">Click here to view TOS Conditions</a><br>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Terms of Service</h4>
+        </div>
+        <div class="modal-body">
+          <p>
 <div class="row">
         <div id="content" class="col-sm-12">
             <h1>Terms &amp; Conditions</h1>
@@ -523,3 +571,26 @@ $this->assign('title', " Terms");
             </p>
         </div>
     </div>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+    </fieldset>
+    <?= $this->Form->button(__d('CakeDC/Users', 'Submit'), ['class'=>'btn btn-primary']) ?>
+    <?= $this->Form->end() ?>
+</div>
+
+<script>
+// When the user clicks on div, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>

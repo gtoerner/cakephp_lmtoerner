@@ -3,6 +3,7 @@
 /config/app.php
 /config/.env
 /logs/*
+error_log
 /tmp/*
 /vendor/*
 
