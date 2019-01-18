@@ -1,6 +1,12 @@
 # CakePHP Application Skeleton
 
 after cloning, you MUST run 'composer install' to pull in all the vendor files
+- then if database needs to be created, then create db and then run migrations...
+  327  bin/cake plugin load Migrations
+  328  bin/cake migrations migrate
+
+then migrade dc users too
+bin/cake migrations migrate -p CakeDC/Users
 
 [![Build Status](https://img.shields.io/travis/cakephp/app/master.svg?style=flat-square)](https://travis-ci.org/cakephp/app)
 [![Total Downloads](https://img.shields.io/packagist/dt/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
