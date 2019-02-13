@@ -9,13 +9,16 @@ $this->assign('title', " Baseball");
 <h1>Baseball</h1>
 
 <?php
-$this->assign('productImage1', '');
+$this->assign('productImage1', "<img src='/img/baseballfrontback.jpg' style='width:225px;height:225px;'
+                                         alt='Baseball Jersey' title='Baseball Jersey' class='img-responsive'>");
 
-$this->assign('productName1', '');
+$this->assign('productName1', 'Baseball Jersey');
         
-$this->assign('productDetails1', '');
+$this->assign('productDetails1', '<li>Cut & sewn with buttons or pullover</li>
+          <li>Print options: Sublimated / Embroidery / Silk Printing / Tackle Twill</li');
 
-$this->assign('productPrice1', '') ;
+$this->assign('productPrice1', 'Price: $30.00 - $50.00
+           <p>* Prices will vary depending on material, order size and customization</p') ;
 
 
 

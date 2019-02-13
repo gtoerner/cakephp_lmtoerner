@@ -122,6 +122,7 @@ $cakeDescription = 'L.M.Toerner';
                     </div>
                 </li>
 
+                <li><?php echo $this->Html->link('T-Shirts', '/pages/tshirt', ['class' => '']);?></li>
                 <li><?php echo $this->Html->link('About', '/pages/about', ['class' => '']);?></li>
                 <li><?php echo $this->Html->link('Contact', '/contact', ['class' => '']);?></li>
 
