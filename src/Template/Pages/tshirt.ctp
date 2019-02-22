@@ -19,10 +19,10 @@ $this->assign('productDetails1', '
 <li>Fully customizable</li>
 <li>Any color or style</li>
 <li>Print options: Sublimated
-</li');
+</li>');
 
 		$this->assign('productPrice1', 'Price: $20.00 - $30.00
-<p>* Prices will vary depending on material, order size and customization</p');
+<p>* Prices will vary depending on material, order size and customization</p>');
 
 
 		$this->assign('productImage2', "<img src='/img/t-shirt2.jpg' style='width:225px;height:225px;'

@@ -17,10 +17,10 @@ $this->assign('productName1', 'Softball Jersey');
 $this->assign('productDetails1', '
 <li>Cut & sewn with buttons or pullover</li>
 <li>Print options: Sublimated / Embroidery / Silk Printing / Tackle Twill
-</li');
+</li>');
 
 		$this->assign('productPrice1', 'Price: $30.00 - $50.00
-<p>* Prices will vary depending on material, order size and customization</p') ;
+<p>* Prices will vary depending on material, order size and customization</p>') ;
 
 
 		$this->assign('productImage2', "<img src='/img/softballjersey.jpg' style='width:225px;height:225px;'

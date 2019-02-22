@@ -15,10 +15,10 @@ $this->assign('productImage1', "<img src='/img/baseballfrontback.jpg' style='wid
 $this->assign('productName1', 'Baseball Jersey');
         
 $this->assign('productDetails1', '<li>Cut & sewn with buttons or pullover</li>
-          <li>Print options: Sublimated / Embroidery / Silk Printing / Tackle Twill</li');
+          <li>Print options: Sublimated / Embroidery / Silk Printing / Tackle Twill</li>');
 
 $this->assign('productPrice1', 'Price: $30.00 - $50.00
-           <p>* Prices will vary depending on material, order size and customization</p') ;
+           <p>* Prices will vary depending on material, order size and customization</p>') ;
 
 
 
