@@ -10,7 +10,7 @@ $this->assign('title', " Home");
     <h1><i>Your One Stop Shop for Uniforms, Team Gear, and Spirit Wear</i></h1>
     <!--
     <img src="/img/cover2.jpg" style="width:1100px;height:500px;"
-    alt="L.M.Toerner Custom Sportwear" title="L.M.Toerner Custom Sportwear" class="img-responsive">
+    alt="GeraGear Custom Apparel" title="GeraGear Custom Apparel" class="img-responsive">
     -->
 </center>
 

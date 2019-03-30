@@ -23,10 +23,10 @@ $this->assign('title', " Contact");
             <div class="panel panel-default">
                 <div class="panel-body">
                     <div class="row">
-                        <div class="col-sm-3"><img src="/img/lmtoerner-268x50.jpg"
-                                                   alt="L.M.Toerner, LLC" title="L.M.Toerner, LLC"
+                        <div class="col-sm-3"><img src="/img/geragear-268-75.jpg"
+                                                   alt="GeraGear Custom Apparel" title="GeraGear Custom Apparel"
                                                    class="img-thumbnail"></div>
-                        <div class="col-sm-3"><strong>L.M.Toerner, LLC</strong><br>
+                        <div class="col-sm-3"><strong>GeraGear Custom Apparel</strong><br>
                             <address>
                                 337 Wisconsin Ave<br>
                                 Oak Park, IL 60302

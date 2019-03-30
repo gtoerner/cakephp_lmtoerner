@@ -1,6 +1,6 @@
 <?php
 
-$cakeDescription = 'L.M.Toerner';
+$cakeDescription = 'GeraGear Custom Apparel';
 ?>
 <!DOCTYPE html>
 <html>
@@ -27,6 +27,7 @@ $cakeDescription = 'L.M.Toerner';
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
+    <?= $this->fetch('link') ?>
     <?= $this->fetch('script') ?>
 
 </head>
@@ -78,17 +79,24 @@ $cakeDescription = 'L.M.Toerner';
         <div class="row">
             <div class="col-sm-4">
                 <div id="logo">
-                    <?php echo $this->Html->image("lmtoerner.jpg", [
-                        'alt' => "L.M.Toerner",
+                    <?php echo $this->Html->image("geragear-268-75.jpg", [
+                    'alt' => "GeraGear Custom Apparel",
+                    'url' => ['controller' => 'Pages', 'action' => 'display', 'home', '_full' => true],
+                    ['class' => 'img-responsive']
+                    ]); ?>
+                    <!--
+                    <?php echo $this->Html->image("geragear.jpg", [
+                        'alt' => "GeraGear Custom Apparel",
                         'url' => ['controller' => 'Pages', 'action' => 'display', 'home', '_full' => true],
                         ['class' => 'img-responsive']
                     ]); ?>
+                    -->
                 </div>
             </div>
             <div class="col-sm-pull-0">
                 <div>
-                    <h4><p>Don't see what you are looking for? </p>
-                        <p> We can accommodate most needs.  <a href="/contact" title="Contact">Contact us</a></p></h4>
+                    <h3><p>Don't see what you are looking for? </p>
+                        <p> We can accommodate most needs.</p><p>  <a href="/contact" title="Contact">Contact us</a> for details</p></h3>
                 </div>
             </div>
         </div>
@@ -100,7 +108,13 @@ $cakeDescription = 'L.M.Toerner';
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-
+<!--
+                <li><?php echo $this->Html->image("geragear-268-75.jpg", [
+                    'alt' => "GeraGear Custom Apparel",
+                    'url' => ['controller' => 'Pages', 'action' => 'display', 'home', '_full' => true],
+                    ['class' => 'img-responsive']
+                    ]); ?></li>
+-->
                 <li><a href="/">Home</a></li>
 
                 <li class="dropdown"><a href="/" class="dropdown-toggle"
@@ -187,7 +201,7 @@ $cakeDescription = 'L.M.Toerner';
             </div>
         </div>
         <hr>
-        <p> L.M.Toerner, LLC © 2018</p>
+        <p> GeraGear Custom Apparel © 2018</p>
     </div>
     </footer>
     

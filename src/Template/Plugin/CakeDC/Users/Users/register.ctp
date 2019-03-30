@@ -82,8 +82,8 @@ use Cake\Core\Configure;
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
                 <font style="font-size: 9pt;">This website uses cookies. By using this website and agreeing to these
-                    terms and conditions, you consent to LMToerner, LLC use of cookies in accordance with the terms of
-                    LMToerner, LLC's [privacy policy / cookies policy].</font></p>
+                    terms and conditions, you consent to GeraGear Custom Apparel use of cookies in accordance with the terms of
+                    GeraGear Custom Apparel's [privacy policy / cookies policy].</font></p>
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
                 <br></p>
@@ -95,7 +95,7 @@ use Cake\Core\Configure;
                 <br></p>
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
-                <font style="font-size: 9pt;">Unless otherwise stated, LMToerner, LLC and/or its licensors own the
+                <font style="font-size: 9pt;">Unless otherwise stated, GeraGear Custom Apparel and/or its licensors own the
                     intellectual property rights in the website and material on the website. Subject to the license
                     below, all these intellectual property rights are reserved.</font></p>
             <p lang="en-GB" class="western" align="justify"
@@ -172,7 +172,7 @@ use Cake\Core\Configure;
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
                 <font style="font-size: 9pt;">You must not conduct any systematic or automated data collection
                     activities (including without limitation scraping, data mining, data extraction and data harvesting)
-                    on or in relation to this website without LMToerner, LLC's express written consent.</font></p>
+                    on or in relation to this website without GeraGear Custom Apparel's express written consent.</font></p>
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
                 <br></p>
@@ -186,7 +186,7 @@ use Cake\Core\Configure;
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
                 <font style="font-size: 9pt;">You must not use this website for any purposes related to marketing
-                    without LMToerner, LLC's express written consent.</font></p>
+                    without GeraGear Custom Apparel's express written consent.</font></p>
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
                 <br></p>
@@ -198,15 +198,15 @@ use Cake\Core\Configure;
                 <br></p>
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
-                <font style="font-size: 9pt;">Access to certain areas of this website is restricted. LMToerner, LLC
+                <font style="font-size: 9pt;">Access to certain areas of this website is restricted. GeraGear Custom Apparel
                     reserves the right to restrict access to other areas of this website, or indeed this entire website,
-                    at LMToerner, LLC's discretion.</font></p>
+                    at GeraGear Custom Apparel's discretion.</font></p>
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
                 <br></p>
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
-                <font style="font-size: 9pt;">If LMToerner, LLC provides you with a user ID and password to enable you
+                <font style="font-size: 9pt;">If GeraGear Custom Apparel provides you with a user ID and password to enable you
                     to access restricted areas of this website or other content or services, you must ensure that the
                     user ID and password are kept confidential.</font></p>
             <p lang="en-GB" class="western" align="justify"
@@ -214,7 +214,7 @@ use Cake\Core\Configure;
                 <br></p>
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
-                <font style="font-size: 9pt;">LMToerner, LLC may disable your user ID and password in LMToerner, LLC's
+                <font style="font-size: 9pt;">GeraGear Custom Apparel may disable your user ID and password in GeraGear Custom Apparel's
                     sole discretion without notice or explanation.</font></p>
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
@@ -235,9 +235,9 @@ use Cake\Core\Configure;
                 <br></p>
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
-                <font style="font-size: 9pt;">You grant to LMToerner, LLC a worldwide, irrevocable, non-exclusive,
+                <font style="font-size: 9pt;">You grant to GeraGear Custom Apparel a worldwide, irrevocable, non-exclusive,
                     royalty-free license to use, reproduce, adapt, publish, translate and distribute your user content
-                    in any existing or future media. You also grant to LMToerner, LLC the right to sub-license these
+                    in any existing or future media. You also grant to GeraGear Custom Apparel the right to sub-license these
                     rights, and the right to bring an action for infringement of these rights.</font></p>
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
@@ -246,7 +246,7 @@ use Cake\Core\Configure;
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
                 <font style="font-size: 9pt;">Your user content must not be illegal or unlawful, must not infringe any
                     third party's legal rights, and must not be capable of giving rise to legal action whether against
-                    you or LMToerner, LLC or a third party (in each case under any applicable law).</font></p>
+                    you or GeraGear Custom Apparel or a third party (in each case under any applicable law).</font></p>
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
                 <br></p>
@@ -260,16 +260,16 @@ use Cake\Core\Configure;
                 <br></p>
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
-                <font style="font-size: 9pt;">LMToerner, LLC reserves the right to edit or remove any material submitted
-                    to this website, or stored on LMToerner, LLC's servers, or hosted or published upon this
+                <font style="font-size: 9pt;">GeraGear Custom Apparel reserves the right to edit or remove any material submitted
+                    to this website, or stored on GeraGear Custom Apparel's servers, or hosted or published upon this
                     website.</font></p>
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
                 <br></p>
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
-                <font style="font-size: 9pt;">Notwithstanding LMToerner, LLC's rights under these terms and conditions
-                    in relation to user content, LMToerner, LLC does not undertake to monitor the submission of such
+                <font style="font-size: 9pt;">Notwithstanding GeraGear Custom Apparel's rights under these terms and conditions
+                    in relation to user content, GeraGear Custom Apparel does not undertake to monitor the submission of such
                     content to, or the publication of such content on, this website.</font></p>
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
@@ -283,15 +283,15 @@ use Cake\Core\Configure;
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
                 <font style="font-size: 9pt;">This website is provided “as is” without any representations or
-                    warranties, express or implied. LMToerner, LLC makes no representations or warranties in relation to
+                    warranties, express or implied. GeraGear Custom Apparel makes no representations or warranties in relation to
                     this website or the information and materials provided on this website.</font></p>
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
                 <br></p>
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
-                <font style="font-size: 9pt;">Without prejudice to the generality of the foregoing paragraph, LMToerner,
-                    LLC does not warrant that:</font></p>
+                <font style="font-size: 9pt;">Without prejudice to the generality of the foregoing paragraph, GeraGear Custom Apparel
+                    does not warrant that:</font></p>
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
                 <br></p>
@@ -323,7 +323,7 @@ use Cake\Core\Configure;
                 <br></p>
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
-                <font style="font-size: 9pt;">LMToerner, LLC will not be liable to you (whether under the law of
+                <font style="font-size: 9pt;">GeraGear Custom Apparel will not be liable to you (whether under the law of
                     contact, the law of torts or otherwise) in relation to the contents of, or use of, or otherwise in
                     connection with, this website:</font></p>
             <p lang="en-GB" class="western" align="justify"
@@ -348,7 +348,7 @@ use Cake\Core\Configure;
                 <br></p>
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
-                <font style="font-size: 9pt;">These limitations of liability apply even if LMToerner, LLC has been
+                <font style="font-size: 9pt;">These limitations of liability apply even if GeraGear Custom Apparel has been
                     expressly advised of the potential loss.</font></p>
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
@@ -363,22 +363,22 @@ use Cake\Core\Configure;
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
                 <font style="font-size: 9pt;">Nothing in this website disclaimer will exclude or limit any warranty
                     implied by law that it would be unlawful to exclude or limit; and nothing in this website disclaimer
-                    will exclude or limit LMToerner, LLC's liability in respect of any:</font></p>
+                    will exclude or limit GeraGear Custom Apparel's liability in respect of any:</font></p>
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
                 <br></p>
             <ul>
                 <li><p lang="en-GB" class="western" align="justify"
                        style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
-                    <font style="font-size: 9pt;">death or personal injury caused by LMToerner, LLC's negligence;</font>
+                    <font style="font-size: 9pt;">death or personal injury caused by GeraGear Custom Apparel's negligence;</font>
                 </p></li>
                 <li><p lang="en-GB" class="western" align="justify"
                        style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
-                    <font style="font-size: 9pt;">fraud or fraudulent misrepresentation on the part of LMToerner, LLC;
+                    <font style="font-size: 9pt;">fraud or fraudulent misrepresentation on the part of GeraGear Custom Apparel;
                         or</font></p></li>
                 <li><p lang="en-GB" class="western" align="justify"
                        style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
-                    <font style="font-size: 9pt;">matter which it would be illegal or unlawful for LMToerner, LLC to
+                    <font style="font-size: 9pt;">matter which it would be illegal or unlawful for GeraGear Custom Apparel to
                         exclude or limit, or to attempt or purport to exclude or limit, its liability.</font></p></li>
             </ul>
             <p lang="en-GB" class="western" align="justify"
@@ -412,9 +412,9 @@ use Cake\Core\Configure;
                 <br></p>
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
-                <font style="font-size: 9pt;">You accept that, as a limited liability entity, LMToerner, LLC has an
+                <font style="font-size: 9pt;">You accept that, as a limited liability entity, GeraGear Custom Apparel has an
                     interest in limiting the personal liability of its officers and employees. You agree that you will
-                    not bring any claim personally against LMToerner, LLC's officers or employees in respect of any
+                    not bring any claim personally against GeraGear Custom Apparel's officers or employees in respect of any
                     losses you suffer in connection with the website.</font></p>
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
@@ -422,9 +422,9 @@ use Cake\Core\Configure;
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
                 <font style="font-size: 9pt;">Without prejudice to the foregoing paragraph, you agree that the
-                    limitations of warranties and liability set out in this website disclaimer will protect LMToerner,
-                    LLC's officers, employees, agents, subsidiaries, successors, assigns and sub-contractors as well as
-                    LMToerner, LLC.</font></p>
+                    limitations of warranties and liability set out in this website disclaimer will protect GeraGear Custom Apparel
+                    's officers, employees, agents, subsidiaries, successors, assigns and sub-contractors as well as
+                    GeraGear Custom Apparel.</font></p>
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
                 <br></p>
@@ -450,11 +450,11 @@ use Cake\Core\Configure;
                 <br></p>
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
-                <font style="font-size: 9pt;">You hereby indemnify LMToerner, LLC and undertake to keep LMToerner, LLC
+                <font style="font-size: 9pt;">You hereby indemnify GeraGear Custom Apparel and undertake to keep GeraGear Custom ApparelC
                     indemnified against any losses, damages, costs, liabilities and expenses (including without
-                    limitation legal expenses and any amounts paid by LMToerner, LLC to a third party in settlement of a
-                    claim or dispute on the advice of LMToerner, LLC's legal advisers) incurred or suffered by
-                    LMToerner, LLC arising out of any breach by you of any provision of these terms and conditions[, or
+                    limitation legal expenses and any amounts paid by GeraGear Custom Apparelto a third party in settlement of a
+                    claim or dispute on the advice of GeraGear Custom Apparel's legal advisers) incurred or suffered by
+                    GeraGear Custom Apparel arising out of any breach by you of any provision of these terms and conditions[, or
                     arising out of any claim that you have breached any provision of these terms and conditions].</font>
             </p>
             <p lang="en-GB" class="western" align="justify"
@@ -468,9 +468,9 @@ use Cake\Core\Configure;
                 <br></p>
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
-                <font style="font-size: 9pt;">Without prejudice to LMToerner, LLC's other rights under these terms and
-                    conditions, if you breach these terms and conditions in any way, LMToerner, LLC may take such action
-                    as LMToerner, LLC deems appropriate to deal with the breach, including suspending your access to the
+                <font style="font-size: 9pt;">Without prejudice to GeraGear Custom Apparel's other rights under these terms and
+                    conditions, if you breach these terms and conditions in any way, GeraGear Custom Apparel may take such action
+                    as GeraGear Custom Apparel deems appropriate to deal with the breach, including suspending your access to the
                     website, prohibiting you from accessing the website, blocking computers using your IP address from
                     accessing the website, contacting your internet service provider to request that they block your
                     access to the website and/or bringing court proceedings against you.</font></p>
@@ -485,7 +485,7 @@ use Cake\Core\Configure;
                 <br></p>
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
-                <font style="font-size: 9pt;">LMToerner, LLC may revise these terms and conditions from time-to-time.
+                <font style="font-size: 9pt;">GeraGear Custom Apparel may revise these terms and conditions from time-to-time.
                     Revised terms and conditions will apply to the use of this website from the date of the publication
                     of the revised terms and conditions on this website. Please check this page regularly to ensure you
                     are familiar with the current version.</font></p>
@@ -500,8 +500,8 @@ use Cake\Core\Configure;
                 <br></p>
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
-                <font style="font-size: 9pt;">LMToerner, LLC may transfer, sub-contract or otherwise deal with
-                    LMToerner, LLC's rights and/or obligations under these terms and conditions without notifying you or
+                <font style="font-size: 9pt;">GeraGear Custom Apparel may transfer, sub-contract or otherwise deal with
+                    GeraGear Custom Apparel's rights and/or obligations under these terms and conditions without notifying you or
                     obtaining your consent.</font></p>
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
@@ -538,7 +538,7 @@ use Cake\Core\Configure;
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">
                 <font style="font-size: 9pt;">These terms and conditions constitute the entire agreement between you and
-                    LMToerner, LLC in relation to your use of this website, and supersede all previous agreements in
+                    GeraGear Custom Apparel in relation to your use of this website, and supersede all previous agreements in
                     respect of your use of this website.</font></p>
             <p lang="en-GB" class="western" align="justify"
                style="margin-bottom: 0in; direction: ltr; font-family: 'Times New Roman', serif; font-size: 12pt;">

@@ -1,7 +1,7 @@
 <?php
 $this->extend('/Layout/teamsportbase');
 
-$this->assign('title', "Polo Shirt");
+$this->assign('title', "Polo Shirts");
 
 
 ?>

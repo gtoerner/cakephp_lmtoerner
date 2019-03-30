@@ -11,14 +11,14 @@ $this->assign('title', " Privacy");
 <br/>
 
 <p style="margin-bottom: 0.1in; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; orphans: 2; widows: 2">
-    <font color="#666666"><font face="Open Sans, sans-serif"><font size="2" style="font-size: 9pt">LMToerner,
-    LLC (&quot;us&quot;, &quot;we&quot;, or &quot;our&quot;) operates the
-    http://www.lmtoe.com website (the &quot;Service&quot;).</font></font></font></p>
+    <font color="#666666"><font face="Open Sans, sans-serif"><font size="2" style="font-size: 9pt">GeraGear Custom Apparel
+        (&quot;us&quot;, &quot;we&quot;, or &quot;our&quot;) operates the
+    http://www.geragear.com website (the &quot;Service&quot;).</font></font></font></p>
 <p style="margin-bottom: 0.1in; orphans: 2; widows: 2"><span style="font-variant: normal"><font color="#666666"><font face="Open Sans, sans-serif"><font size="2" style="font-size: 9pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">This
                     page informs you of our policies regarding the collection, use, and
                     disclosure of personal data when you use our Service and the choices
-                    you have associated with that data. Our Privacy Policy for LMToerner,
-                    LLC is managed through&nbsp;</span></span></span></font></font></font></span><a href="https://www.freeprivacypolicy.com/free-privacy-policy-generator.php"><span style="font-variant: normal"><font color="#23a1d1"><span style="text-decoration: none"><font face="Open Sans, sans-serif"><font size="2" style="font-size: 9pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal"><span style="background: transparent">Free
+                    you have associated with that data. Our Privacy Policy for GeraGear Custom Apparel
+    is managed through&nbsp;</span></span></span></font></font></font></span><a href="https://www.freeprivacypolicy.com/free-privacy-policy-generator.php"><span style="font-variant: normal"><font color="#23a1d1"><span style="text-decoration: none"><font face="Open Sans, sans-serif"><font size="2" style="font-size: 9pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal"><span style="background: transparent">Free
                                 Privacy Policy</span></span></span></span></font></font></span></font></span></a><span style="font-variant: normal"><font color="#666666"><font face="Open Sans, sans-serif"><font size="2" style="font-size: 9pt"><span style="letter-spacing: normal"><span style="font-style: normal"><span style="font-weight: normal">.</span></span></span></font></font></font></span></p>
 <p style="margin-bottom: 0.1in; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; orphans: 2; widows: 2">
     <font color="#666666"><font face="Open Sans, sans-serif"><font size="2" style="font-size: 9pt">We
@@ -110,8 +110,8 @@ $this->assign('title', " Privacy");
     </li>
 </ul>
 <p style="margin-bottom: 0.1in; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; orphans: 2; widows: 2">
-    <font color="#666666"><font face="Open Sans, sans-serif"><font size="2" style="font-size: 9pt">LMToerner,
-    LLC uses the collected data for various purposes:</font></font></font></p>
+    <font color="#666666"><font face="Open Sans, sans-serif"><font size="2" style="font-size: 9pt">GeraGear Custom Apparel
+        uses the collected data for various purposes:</font></font></font></p>
 <ul>
     <li>
     <p style="margin-bottom: 0.1in; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; orphans: 2; widows: 2">
@@ -167,15 +167,15 @@ $this->assign('title', " Privacy");
     consent to this Privacy Policy followed by your submission of such
     information represents your agreement to that transfer.</font></font></font></p>
 <p style="margin-bottom: 0.1in; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; orphans: 2; widows: 2">
-    <font color="#666666"><font face="Open Sans, sans-serif"><font size="2" style="font-size: 9pt">LMToerner,
-    LLC will take all steps reasonably necessary to ensure that your data
+    <font color="#666666"><font face="Open Sans, sans-serif"><font size="2" style="font-size: 9pt">GeraGear Custom Apparel
+        will take all steps reasonably necessary to ensure that your data
     is treated securely and in accordance with this Privacy Policy and no
     transfer of your Personal Data will take place to an organization or
     a country unless there are adequate controls in place including the
     security of your data and other personal information.</font></font></font></p>
 <p style="margin-bottom: 0.1in; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; orphans: 2; widows: 2">
-    <font color="#666666"><font face="Open Sans, sans-serif"><font size="2" style="font-size: 9pt">LMToerner,
-    LLC may disclose your Personal Data in the good faith belief that
+    <font color="#666666"><font face="Open Sans, sans-serif"><font size="2" style="font-size: 9pt">GeraGear Custom Apparel
+        may disclose your Personal Data in the good faith belief that
     such action is necessary to:</font></font></font></p>
 <ul>
     <li>
@@ -186,7 +186,7 @@ $this->assign('title', " Privacy");
     <li>
     <p style="margin-bottom: 0.1in; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; orphans: 2; widows: 2">
         <font color="#666666"><font face="Open Sans, sans-serif"><font size="2" style="font-size: 9pt">To
-        protect and defend the rights or property of LMToerner, LLC</font></font></font></p>
+        protect and defend the rights or property of GeraGear Custom Apparel</font></font></font></p>
     </li>
     <li>
     <p style="margin-bottom: 0.1in; font-variant: normal; letter-spacing: normal; font-style: normal; font-weight: normal; orphans: 2; widows: 2">
