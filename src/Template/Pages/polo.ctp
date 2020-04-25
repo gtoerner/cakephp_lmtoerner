@@ -1,52 +1,123 @@
 <?php
-$this->extend('/Layout/teamsportbase');
+//$this->extend('/Layout/teamsportbase');
 
 $this->assign('title', "Polo Shirts");
 
 
 ?>
 
-<h1>Baseball</h1>
+<style>
+    table {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    th {
+        text-align: center;
+        border: 1px solid black;
+        border-collapse: collapse;
+        background: lightgray; }
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    .branch {
+        text-align: center;
+    }
+    .ga { background: lightgreen; }
+    .dontuse { background: lightpink; }
+    .pending { background: lightyellow; }
+</style>
+<h1>Polo Shirts</h1>
+<br/>
+<p>
+    Geragear Polos are custom made with the finest material.  Add a logo, include a design.  Any color, any style
+    <br><br>
+    Available in 100% polyester or 100% cotton.
+</p>
+<p span style="font-size: 25px; text-align: center;">
+    <a href="/contact">Get Started Today</a>
+</p>
+<p>
+<table style="width:100%">
+    <tr><th colspan="4">Don't see what you are looking for?<br>We can accomodate most needs</th></tr>
+    <tr>
+        <td class="branch">
+            <img src="/img/polo7.jpg"
+                 alt="polyester polo"
+                 style="width:150px;height:150px;"
+                 class="img-responsive">
+            <br>100% Polyester Athletic Cut
+        </td>
+        <td class="branch">
+            <img src="/img/polo1.jpg"
+                 alt="polyester polo"
+                 style="width:150px;height:150px;"
+                 class="img-responsive">
+            <br>100% Polyester Golf Polo<br>Athletic Cut</td>
+        <td class="branch">
+            <img src="/img/polo-longsleeve.jpg"
+                 alt="polyester polo"
+                 style="width:150px;height:150px;"
+                 class="img-responsive">
+            <br>100% Polyester Long Sleeve<br>Athletic Cut</td>
+        <td class="branch">
+            <img src="/img/polo2.jpg"
+                 alt="polyester polo"
+                 style="width:150px;height:150px;"
+                 class="img-responsive">
+            <br>100% Polyester Loose Cut</td>
+    </tr>
+    <tr>
+        <td class="branch">
+            <img src="/img/polo3.jpg"
+                 alt="cotton polo"
+                 style="width:150px;height:150px;"
+                 class="img-responsive">
+            <br>100% Cotton Athletic Cut</td>
+        <td class="branch">
+            <img src="/img/polo4.jpg"
+                 alt="cotton polo"
+                 style="width:150px;height:150px;"
+                 class="img-responsive">
+            <br>100% Cotton Athletic Cut</td>
+        <td class="branch">
+            <img src="/img/polo5.jpg"
+                 alt="cotton polo"
+                 style="width:150px;height:150px;"
+                 class="img-responsive">
+            <br>100% Cotton Loose Cut</td>
+        <td class="branch">
+            <img src="/img/polo6.jpg"
+                 alt="cotton polo"
+                 style="width:150px;height:150px;"
+                 class="img-responsive">
+            <br>100% Cotton Loose Cut</td>
+    </tr>
 
-<?php
-$this->assign('productImage1', "<img src='/img/polo1.jpg' style='width:225px;height:225px;'
-                                     alt='Polo Shirt' title='Polo Shirt' class='img-responsive'>");
+</table>
 
-$this->assign('productName1', 'Custom Sublimated Polo Shirt');
+</p>
+<p span style="font-size: 25px; text-align: center;">
+    <a href="/contact">Get Started Today</a>
+</p>
+<p>
+<table style="width:100%">
+    <tr><th colspan="4">Polo Shirt Material & Design Specifications</th></tr>
 
-$this->assign('productDetails1', '<li>Any color, style or pattern/print</li>
-<li>Add Logo or custom design</li>
-<li>Print options: Sublimated </li>');
+    <th>Material</th><th>Material Weight</th><th>Description</th><th>Print Type Available</th>
 
-		$this->assign('productPrice1', 'Price: $25.00 - $40.00
-<p>* Prices will vary depending on material, order size and customization</p>') ;
+    <tr>
+        <td class="branch">Cotton</td>
+        <td>120 - 190gsm (4.5 - 6.5oz)</td>
+        <td>100% Combed Cotton<br>Machine Washable</td>
+        <td>SilkScreen<br>HeatPress<br>Applique<br>Embroidery</td>
+    </tr>
+    <tr>
+        <td class="branch">Polyester</td>
+        <td>120 - 190gsm <br>(4.5 - 6.5oz)</td>
+        <td>100% Polyester<br> Breathable<br> Stretchy<br> Dri-fit Wicking Technology<br>Machine Washable</td>
+        <td>Sublimation<br>SilkScreen<br>HeatPress<br>Applique<br>Embroidery</td>
+    </tr>
 
-
-
-		$this->assign('productImage2', "<img src='/img/polo2.jpg' style='width:225px;height:225px;'
-                                             alt='Polo Shirt' title='Polo Shirt' class='img-responsive'>");
-
-$this->assign('productName2', 'Custom Sublimated Polo Shirt');
-
-$this->assign('productDetails2', '<li>Any color, style or pattern/print</li>
-<li>Add Logo or custom design</li>
-<li>Print options: Sublimated </li>');
-
-$this->assign('productPrice2', 'Price: $25.00 - $40.00
-<p>* Prices will vary depending on material, order size and customization</p>') ;
-
-
-$this->assign('productImage3', '<img src="/img/polo-coton.jpg"
-                                     style="width:225px;height:225px;"
-                                     alt="Polo Shirt" title="Polo Shirt" class="img-responsive">');
-
-$this->assign('productName3', '100% Cotton Polo Shirt');
-
-$this->assign('productDetails3', '<li>100% Cotton</li>
-<li>Any color, style or pattern/print</li>
-<li>Add Logo or custom design</li>
-<li>Print options: Sublimated / Embroidery / Silk Printing / Tackle Twill</li>');
-
-$this->assign('productPrice3', 'Price: $25.00 - $40.00
-<p>* Prices will vary depending on material, order size and customization</p>') ;
-?>
+</table>
+</p>

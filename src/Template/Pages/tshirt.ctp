@@ -6,12 +6,19 @@ $this->assign('title', " T-Shirts");
 
 ?>
 <style>
+    table {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
     th {
         text-align: center;
         border: 1px solid black;
         border-collapse: collapse;
         background: lightgray; }
-    td { border: 1px solid black; }
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
     .branch {
         text-align: center;
     }
@@ -27,13 +34,13 @@ $this->assign('title', " T-Shirts");
     With sublimation, literally the sky is the limit - any color, any design, can be printed on any style of shirt.
     We have a vast selection of T-Shirts to choose from that can be fully customized.
     <br><br>
-    T-shirts come in 100% polyester or 100% cotton, and we use extremely high quality fabric.
+    Geragear T-shirts are made with high quality fabric, available in 100% polyester or 100% cotton.
 </p>
 <p span style="font-size: 25px; text-align: center;">
     <a href="/contact">Get Started Today</a>
 </p>
 <p>
-<table>
+<table style="width:100%">
     <tr><th colspan="4">Don't see what you are looking for?<br>We can accomodate most needs</th></tr>
     <tr>
         <td class="branch">
@@ -96,22 +103,22 @@ $this->assign('title', " T-Shirts");
     <a href="/contact">Get Started Today</a>
 </p>
 <p>
-<table>
+<table style="width:100%">
     <tr><th colspan="4">T-Shirt Material & Design Specifications</th></tr>
 
     <th>Material</th><th>Material Weight</th><th>Description</th><th>Print Type Available</th>
 
     <tr>
-        <td>Cotton</td>
+        <td class="branch">Cotton</td>
         <td>120 - 190gsm (4.5 - 6.5oz)</td>
-        <td>100% combed cotton</td>
-        <td>SilkScreen, HeatPress, Applique and Embroidery</td>
+        <td>100% Combed Cotton<br>Machine Washable</td>
+        <td>SilkScreen<br>HeatPress<br>Applique<br>Embroidery</td>
     </tr>
     <tr>
-        <td>Polyester</td>
-        <td>120 - 190gsm (4.5 - 6.5oz)</td>
-        <td>100% Polyester, breathable, stretchy, dri-fit</td>
-        <td>Sublimation, SilkScreen, HeatPress, Applique and Embroidery</td>
+        <td class="branch">Polyester</td>
+        <td>120 - 190gsm <br>(4.5 - 6.5oz)</td>
+        <td>100% Polyester<br> Breathable<br> Stretchy<br> Dri-fit Wicking Technology<br>Machine Washable</td>
+        <td>Sublimation<br>SilkScreen<br>HeatPress<br>Applique<br>Embroidery</td>
     </tr>
 
 </table>
