@@ -107,13 +107,13 @@ $this->assign('title', " Hoodies");
 
     <tr>
         <td class="branch">Cotton</td>
-        <td>120 - 190gsm (4.5 - 6.5oz)</td>
+        <td>150 - 500gsm <br>(6 - 18oz)</td>
         <td>100% Combed Cotton<br>Machine Washable</td>
         <td>SilkScreen<br>HeatPress<br>Applique<br>Embroidery</td>
     </tr>
     <tr>
         <td class="branch">Polyester</td>
-        <td>120 - 190gsm <br>(4.5 - 6.5oz)</td>
+        <td>150 - 500gsm <br>(6 - 18oz)</td>
         <td>100% Polyester<br> Breathable<br> Stretchy<br> Dri-fit Wicking Technology<br>Machine Washable</td>
         <td>Sublimation<br>SilkScreen<br>HeatPress<br>Applique<br>Embroidery</td>
     </tr>

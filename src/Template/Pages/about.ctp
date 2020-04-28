@@ -22,5 +22,5 @@ $this->assign('title', " About");
     <p>
     We also have the ability to setup a product page specifically designed for your team, club, or school.
         And we have the ability to charge a percentage on each sale that would go back to the club or school.
-        We can accommodate most needs, <a href="/contact">call or email </a>us to discuss.
+        We can accommodate most needs, <a href="/contact">contact </a>us to discuss.
     </p>

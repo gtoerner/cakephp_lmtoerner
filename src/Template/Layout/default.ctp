@@ -74,7 +74,8 @@ $cakeDescription = 'GeraGear Custom Apparel';
                 <div class="collapse navbar-collapse" id="ftco-nav">
                     <ul class="navbar-nav mr-auto">
                         <li class=<?= $this->fetch('navItem', 'nav-item') ?>><?php echo $this->Html->link('Home', '/', ['class' => 'nav-link']);?></li>
-                        <li class="nav-item dropdown">
+                        <li class=<?= $this->fetch('navItem', 'nav-item') ?>><?php echo $this->Html->link('TeamSports', '/pages/teamsports/teamsports', ['class' => 'nav-link']);?></li>
+                        <!--<li class="nav-item dropdown">
                             <a href="/" class="nav-link dropdown-toggle"
                                data-toggle="dropdown" href="" role="button" aria-haspopup="false" aria-expanded="false">Team&nbsp;Sports</a>
                             <div class="dropdown-menu" style="">
@@ -87,12 +88,13 @@ $cakeDescription = 'GeraGear Custom Apparel';
                                 <a class="dropdown-item-text" href="/pages/teamsports/soccer"><span style="font-size: small">Soccer</span></a>
                                 <a class="dropdown-item-text" href="/pages/teamsports/softball"><span style="font-size: small">Softball</span></a>
 
-                                <!-- <a href="{% url 'products' %}" class="see-all">Show All Products</a> -->
+                                <a href="{% url 'products' %}" class="see-all">Show All Products</a>
                             </div>
                         </li>
+                -->
                         <li class=<?= $this->fetch('navItem', 'nav-item') ?>><?php echo $this->Html->link('T-Shirts', '/pages/tshirt', ['class' => 'nav-link']);?></li>
                         <li class=<?= $this->fetch('navItem', 'nav-item') ?>><?php echo $this->Html->link('Polos', '/pages/polo', ['class' => 'nav-link']);?></li>
-                        <li class=<?= $this->fetch('navItem', 'nav-item') ?>><?php echo $this->Html->link('Sweats', '/pages/hoodies', ['class' => 'nav-link']);?></li>
+                        <li class=<?= $this->fetch('navItem', 'nav-item') ?>><?php echo $this->Html->link('SweatShirts', '/pages/hoodies', ['class' => 'nav-link']);?></li>
 
                         <li class=<?= $this->fetch('navItem', 'nav-item') ?>><?php echo $this->Html->link('About', '/pages/about', ['class' => 'nav-link']);?></li>
                         <li class=<?= $this->fetch('navItem', 'nav-item') ?>><?php echo $this->Html->link('Contact', '/pages/contact', ['class' => 'nav-link']);?></li>
