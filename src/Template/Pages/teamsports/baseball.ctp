@@ -1,49 +1,92 @@
 <?php
-$this->extend('/Layout/teamsportbase');
+//$this->extend('/Layout/teamsportbase');
 
 $this->assign('title', " Baseball");
 
 
 ?>
 
-<h1>Baseball</h1>
+<style>
+    table {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    th {
+        text-align: center;
+        border: 1px solid black;
+        border-collapse: collapse;
+        background: lightgray; }
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    .branch {
+        text-align: center;
+    }
+    .ga { background: lightgreen; }
+    .dontuse { background: lightpink; }
+    .pending { background: lightyellow; }
+</style>
+<h1>Baseball Uniforms</h1>
+<br/>
+<p>
+    Our baseball uniforms are made of high quality, soft, stretchy, breathable, dri-wicking 100% polyester that is machine washable and won't fade.<br>
+    Fully customizable: Add a logo, include a design. Any color, any style
+    <br>
+</p>
+<p span style="font-size: 25px; text-align: center;">
+    <a href="/contact">Get Started Today</a>
+</p>
+<p>
+<table style="width:100%">
+    <tr><th colspan="4">Don't see what you are looking for?<br>We can accomodate most needs</th></tr>
+    <tr>
+        <td class="branch">
+            <img src="/img/baseballjersey-henley.jpg"
+                 alt="baseball jersey"
+                 style="width:150px;height:150px;"
+                 class="img-responsive">
+            <br>Pullover Jersey<br>Henley Collar
+        </td>
+        <td class="branch">
+            <img src="/img/baseballjersey-buttondown.jpg"
+                 alt="baseball jersey"
+                 style="width:150px;height:150px;"
+                 class="img-responsive">
+            <br>Button Down Jersey</td>
+        <td class="branch">
+            <img src="/img/baseballjersey-crewneck.jpg"
+                 alt="baseball jersey"
+                 style="width:150px;height:150px;"
+                 class="img-responsive">
+            <br>Crewneck Pullover</td>
+    </tr>
+    <tr>
+        <td class="branch">
+            <img src="/img/baseballpants1.jpg"
+                 alt="baseball pants"
+                 style="width:150px;height:150px;"
+                 class="img-responsive">
+            <br>Fancy Striped Pants</td>
+        <td class="branch">
+            <img src="/img/Baseball-Pants-Plus.jpg"
+                 alt="baseball pants"
+                 style="width:150px;height:150px;"
+                 class="img-responsive">
+            <br>Striped Pants</td>
+        <td class="branch">
+            <img src="/img/baseballpants3.jpg"
+                 alt="Baseball Pants"
+                 style="width:150px;height:150px;"
+                 class="img-responsive">
+            <br>Classic Pants</td>
+    </tr>
 
-<?php
-$this->assign('productImage1', "<img src='/img/baseballfrontback.jpg' style='width:225px;height:225px;'
-                                         alt='Baseball Jersey' title='Baseball Jersey' class='img-responsive'>");
+</table>
 
-$this->assign('productName1', 'Baseball Jersey');
-        
-$this->assign('productDetails1', '<li>Cut & sewn with buttons or pullover</li>
-          <li>Print options: Sublimated / Embroidery / Silk Printing / Tackle Twill</li>');
-
-$this->assign('productPrice1', 'Price: $30.00 - $50.00
-           <p>* Prices will vary depending on material, order size and customization</p>') ;
+</p>
+<p span style="font-size: 25px; text-align: center;">
+    <a href="/contact">Get Started Today</a>
+</p>
 
 
-
-$this->assign('productImage2', "<img src='/img/baseballtop1.jpg' style='width:225px;height:225px;'
-        alt='Baseball Jersey' title='Baseball Jersey' class='img-responsive'>");
-
-$this->assign('productName2', 'Baseball Jersey');
-        
-$this->assign('productDetails2', '<li>Cut & sewn with buttons or pullover</li>
-                            <li>Print options: Sublimated / Embroidery / Silk Printing / Tackle Twill</li>');
-
-$this->assign('productPrice2', 'Price: $30.00 - $50.00
-                            <p>* Prices will vary depending on material, order size and customization</p>') ;
-
-
-$this->assign('productImage3', '<img src="/img/custom-baseball-pants-for-men.png"
-                         style="width:225px;height:225px;"
-                         alt="Baseball Pants" title="Baseball Pants" class="img-responsive">');
-
-$this->assign('productName3', 'Baseball Pants');
-        
-$this->assign('productDetails3', '<li>Zippered fly and snap closure for easy on/off</li>
-                            <li>Elastic waistband provides a comfortable fit</li>
-                            <li>Welt pockets offer convenient storage</li>');
-
-$this->assign('productPrice3', 'Price: $25.00 - $40.00
-                            <p>* Prices will vary depending on material, order size and customization</p>') ;
-?>
