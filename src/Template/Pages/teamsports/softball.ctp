@@ -1,53 +1,75 @@
 <?php
-$this->extend('/Layout/teamsportbase');
+//$this->extend('/Layout/teamsportbase');
 
 $this->assign('title', " Softball");
 
 
 ?>
 
-<h1>Softball</h1>
+<style>
+    table {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    th {
+        text-align: center;
+        border: 1px solid black;
+        border-collapse: collapse;
+        background: lightgray; }
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    .branch {
+        text-align: center;
+    }
+    .ga { background: lightgreen; }
+    .dontuse { background: lightpink; }
+    .pending { background: lightyellow; }
+</style>
+<h1>Softball Uniforms</h1>
+<br/>
+<p>
+    Geragear softball uniforms are made of high quality, soft, stretchy, breathable, dri-wicking 100% polyester that is machine washable and won't fade.<br>
+    Fully customizable: Add a logo, include a design. Any color, any style
+    <br>
+</p>
+<p span style="font-size: 25px; text-align: center;">
+    <a href="/contact">Get Started Today</a>
+</p>
+<p>
+<table style="width:100%">
+    <tr><th colspan="4">Don't see what you are looking for?<br>We can accomodate most needs</th></tr>
+    <tr>
+        <td class="branch">
+            <img src="/img/baseballjersey-henley.jpg"
+                 alt="softball jersey"
+                 style="width:150px;height:150px;"
+                 class="img-responsive">
+            <br>Pullover Jersey<br>Henley Collar
+        </td>
+        <td class="branch">
+            <img src="/img/softballjersey2.png"
+                 alt="softball jersey"
+                 style="width:150px;height:150px;"
+                 class="img-responsive">
+            <br>Crewneck Pullover</td>
+        <td class="branch">
+            <img src="/img/softballjersey.jpg"
+                 alt="softball jersey"
+                 style="width:150px;height:150px;"
+                 class="img-responsive">
+            <br>Button Down Jersey</td>
+        <td class="branch">
+            <img src="/img/SoftballPants.png"
+                 alt="softball pants"
+                 style="width:150px;height:150px;"
+                 class="img-responsive">
+            <br>Fancy Striped Pants</td>
+    </tr>
+</table>
 
-<?php
-$this->assign('productImage1', "<img src='/img/baseballtop2.jpg' style='width:225px;height:225px;'
-                                     alt='Softball Jersey' title='Softball Jersey' class='img-responsive'>");
-
-$this->assign('productName1', 'Softball Jersey');
-
-$this->assign('productDetails1', '
-<li>Cut & sewn with buttons or pullover</li>
-<li>Print options: Sublimated / Embroidery / Silk Printing / Tackle Twill
-</li>');
-
-		$this->assign('productPrice1', 'Price: $30.00 - $50.00
-<p>* Prices will vary depending on material, order size and customization</p>') ;
-
-
-		$this->assign('productImage2', "<img src='/img/softballjersey.jpg' style='width:225px;height:225px;'
-                                             alt='Softball Jersey' title='Softball Jersey' class='img-responsive'>");
-
-$this->assign('productName2', 'Softball Jersey');
-
-$this->assign('productDetails2', '
-<li>Cut & sewn with buttons or pullover</li>
-<li>220gsm-300gsm polyester fabric</li>
-<li>Print options: Sublimated / Embroidery / Silk Printing / Tackle Twill</li>');
-
-$this->assign('productPrice2', 'Price: $30.00 - $50.00
-<p>* Prices will vary depending on material, order size and customization</p>') ;
-
-
-$this->assign('productImage3', '<img src="/img/SoftballPants.png"
-                                     style="width:225px;height:225px;"
-                                     alt="Softball Pants" title="Softball Pants" class="img-responsive">');
-
-$this->assign('productName3', 'Softball Pants');
-
-$this->assign('productDetails3', '
-<li>Zippered fly and snap closure for easy on/off</li>
-<li>Elastic waistband provides a comfortable fit</li>
-<li>Welt pockets offer convenient storage</li>');
-
-$this->assign('productPrice3', 'Price: $25.00 - $35.00
-<p>* Prices will vary depending on material, order size and customization</p>') ;
-?>
+</p>
+<p span style="font-size: 25px; text-align: center;">
+    <a href="/contact">Get Started Today</a>
+</p>

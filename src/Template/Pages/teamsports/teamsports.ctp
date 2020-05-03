@@ -96,7 +96,7 @@ $this->assign('title', "Polo Shirts");
             </a>
         </td>
         <td>
-            <a class="dropdown-item-text" href="/pages/teamsports/Soccer">
+            <a class="dropdown-item-text" href="/pages/teamsports/soccer">
                 <img src="/img/material_Soccerball.png"
                      alt="Soccer image"
                      style="width:50px;height:50px;"

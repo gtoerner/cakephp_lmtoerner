@@ -1,53 +1,78 @@
 <?php
-$this->extend('/Layout/teamsportbase');
+//$this->extend('/Layout/teamsportbase');
 
 $this->assign('title', " Hockey");
 
 
 ?>
 
-<h1>Hockey</h1>
+<style>
+    table {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    th {
+        text-align: center;
+        border: 1px solid black;
+        border-collapse: collapse;
+        background: lightgray; }
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    .branch {
+        text-align: center;
+    }
+    .ga { background: lightgreen; }
+    .dontuse { background: lightpink; }
+    .pending { background: lightyellow; }
+</style>
+<h1>Hockey Gear</h1>
+<br/>
+<p>
+    Our hockey gear is made of high quality, durable, soft, stretchy, breathable, dri-wicking polyester material that is machine washable and won't fade.<br>
+    Fully customizable: Add a logo, include a design. Any color, any style<br>
+    Built-in gussets for added mobility.  Double layers at shoulders and elbows.  Double needle stitching on critical seams
+    <br>
+</p>
+<p span style="font-size: 25px; text-align: center;">
+    <a href="/contact">Get Started Today</a>
+</p>
+<p>
+<table style="width:100%">
+    <tr><th colspan="4">Don't see what you are looking for?<br>We can accomodate most needs</th></tr>
+    <tr>
+        <td class="branch">
+            <img src="/img/hockey1.jpg"
+                 alt="hockey jersey"
+                 style="width:150px;height:150px;"
+                 class="img-responsive">
+            <br>Hockey Jersey
+        </td>
+        <td class="branch">
+            <img src="/img/hockey2.jpg"
+                 alt="hockey jersey"
+                 style="width:150px;height:150px;"
+                 class="img-responsive">
+            <br>Hockey Jersey</td>
+        <td class="branch">
+            <img src="/img/hockey-shell.jpg"
+                 alt="hockey shell"
+                 style="width:125px;height:150px;"
+                 class="img-responsive">
+            <br>Hockey Shell/Shorts</td>
+        <td class="branch">
+            <img src="/img/hockey-socks.png"
+                 alt="hockey socks"
+                 style="width:125px;height:150px;"
+                 class="img-responsive">
+            <br>Hockey Socks</td>
+    </tr>
 
-<?php
-$this->assign('productImage1', '<img src="/img/hockey-socks.png"
-                         style="width:175px;height:225px;"
-                         alt="Hockey Socks" title="Hockey Socks" class="img-responsive">');
+</table>
 
-$this->assign('productName1', 'Hockey Socks');
-        
-$this->assign('productDetails1', '<li>Print options: Sublimated / Embroidery</li>
-                            <li>Fully customizable</li>');
+</p>
+<p span style="font-size: 25px; text-align: center;">
+    <a href="/contact">Get Started Today</a>
+</p>
 
-$this->assign('productPrice1', 'Price: $18.00 - $35.00
-                            <p>* Prices will vary depending on material, order size and customization</p>') ;
-
-
-
-$this->assign('productImage2', "<img src='/img/hockey1.jpg' style='width:225px;height:225px;'
-        alt='Hockey Jersey' title='Hockey Jersey' class='img-responsive'>");
-
-$this->assign('productName2', 'Hockey Jersey');
-        
-$this->assign('productDetails2', '<li>Authentic jersey neck lace</li>
-                            <li>Built-in gussets for added mobility</li>
-                            <li>Double layers at shoulders and elbows</li>
-                            <li>Double needle stitching on critical seams</li>
-                            <li>Print options: Sublimated / Embroidery / Silk Printing / Tackle Twill</li>');
-
-$this->assign('productPrice2', 'Price: $50.00 - $75.00
-                            <p>* Prices will vary depending on material, order size and customization</p>') ;
-
-
-$this->assign('productImage3', "<img src='/img/hockey-shell.jpg' style='width:175px;height:225px;'
-        alt='Hockey Shell' title='Hockey Shell' class='img-responsive'>");
-
-$this->assign('productName3', 'Hockey Shell');
-        
-$this->assign('productDetails3', '<li>Durable 420 denier coated nylon</li>
-                            <li>Adjustable belt closure</li>
-                            <li>Braid Accents on side panels</li>
-                            <li>Print options: Sublimated / Embroidery / Silk Printing / Tackle Twill</li>');
-
-$this->assign('productPrice3', 'Price: $35.00 - $50.00
-                            <p>* Prices will vary depending on material, order size and customization</p>') ;
-?>
