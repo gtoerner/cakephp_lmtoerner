@@ -1,5 +1,5 @@
 <?php
-//$this->extend('/Layout/teamsportbase');
+$this->extend('/Layout/teamsportbase');
 $this->assign('title', " Football");
 
 

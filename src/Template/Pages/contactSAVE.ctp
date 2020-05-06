@@ -21,7 +21,7 @@ $this->assign('title', " Contact");
                 <fieldset>
                     <legend>Contact Us</legend>
                     <p>
-                        Please provide us with your contact information and a detailed message of the product(s) you are interested in.  We will be in touch shortly to discuss your needs
+                        Please provide us with your contact information and we will be in touch shortly to discuss your needs
                     </p>
                     <div class="form-group required">
   <!-- setting control-label class makes it have red astrisk next to the label
