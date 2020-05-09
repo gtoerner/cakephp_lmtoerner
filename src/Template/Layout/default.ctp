@@ -97,7 +97,7 @@ $cakeDescription = 'GeraGear Custom Apparel';
                         <li class=<?= $this->fetch('navItem', 'nav-item') ?>><?php echo $this->Html->link('SweatShirts', '/pages/hoodies', ['class' => 'nav-link']);?></li>
 
                         <li class=<?= $this->fetch('navItem', 'nav-item') ?>><?php echo $this->Html->link('About', '/pages/about', ['class' => 'nav-link']);?></li>
-                        <li class=<?= $this->fetch('navItem', 'nav-item') ?>><?php echo $this->Html->link('Contact', '/pages/contact', ['class' => 'nav-link']);?></li>
+                        <li class=<?= $this->fetch('navItem', 'nav-item') ?>><?php echo $this->Html->link('Contact', '/contact', ['class' => 'nav-link']);?></li>
 
                         <!--
                         <li class="nav-item"><a href="team.html" class="nav-link">Our team</a></li>
