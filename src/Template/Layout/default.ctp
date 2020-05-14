@@ -42,8 +42,8 @@ $cakeDescription = 'GeraGear Custom Apparel';
         <div class="container pt-5">
             <div class="row justify-content-between">
                 <div class="col">
-                    <a class="navbar-brand" href="/"><span style="font-size: 45px; color: #23272b;">Geragear</span><br>
-                        <span style="font-size: 25px;">Custom Apparel</span></a>
+                    <a class="navbar-brand" href="/"><span style="font-size: 45px; color: #23272b;">Gera Gear</span><br>
+                        <span style="font-size: 27px;">Custom Apparel</span></a>
                 </div>
                 <div class="col d-flex justify-content-end">
                     <div class="social-media">
