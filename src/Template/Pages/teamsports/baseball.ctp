@@ -53,7 +53,7 @@ $this->assign('title', " Baseball");
     /* Rows & cells */
     div.th, div.td {
         box-sizing: border-box;
-        width: 33.333%;
+        width: 50%;
         padding: 10px;
         border: 1px solid black;
     }

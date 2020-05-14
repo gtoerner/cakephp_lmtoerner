@@ -98,7 +98,7 @@ $this->assign('navItem', 'nav-item active');
     /* Rows & cells */
     div.th, div.td {
         box-sizing: border-box;
-        width: 50%;
+        width: 100%;
         padding: 10px;
         /*border: 1px solid black; */
     }
@@ -115,7 +115,7 @@ $this->assign('navItem', 'nav-item active');
     <!--I can Add stuff up here before I start the container which will traverse the whole row even to make it bigger thourhgt the entier roe-->
 </div>
 
-<div class="flex-table">
+<div>
     <div class="td">
         <br>
         <h1 class="mb-3" span style="text-align: center; font-size: 32px;">Quality Custom Apparel</h1>
@@ -150,6 +150,11 @@ $this->assign('navItem', 'nav-item active');
         </p>
 
     </div>
+    <p><br></p>
+    <p span style="font-size: 25px; text-align: center;">
+        <a href="/contact">Get Started Today</a>
+    </p>
+    <p><br></p>
     <div class="td">
         <div class="home-slider owl-carousel">
             <div class="slider-item" style="background-image:url(/img/tshirt.jpg);">

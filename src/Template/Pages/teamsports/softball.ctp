@@ -26,50 +26,83 @@ $this->assign('title', " Softball");
     .ga { background: lightgreen; }
     .dontuse { background: lightpink; }
     .pending { background: lightyellow; }
+
+    .flex-table {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .mycenter {
+        text-align: center;
+    }
+
+    /* Rows & cells */
+    div.th, div.td {
+        box-sizing: border-box;
+        width: 50%;
+        padding: 10px;
+        border: 1px solid black;
+    }
+
+    div.th {
+        font-weight: bold;
+        background: lightgray;
+        text-align: center;
+    }
 </style>
+<div>
 <h1>Softball Uniforms</h1>
+</div>
 <br/>
-<p>
+<div>
     Geragear softball uniforms are made of high quality, soft, stretchy, breathable, dri-wicking 100% polyester that is machine washable and won't fade.<br>
     Fully customizable: Add a logo, include a design. Any color, any style
     <br>
-</p>
-<p span style="font-size: 25px; text-align: center;">
+</div>
+<div span style="font-size: 25px; text-align: center;">
+    <br>
     <a href="/contact">Get Started Today</a>
-</p>
-<p>
-<table style="width:100%">
-    <tr><th colspan="4">Don't see what you are looking for?<br>We can accomodate most needs</th></tr>
-    <tr>
-        <td class="branch">
+    <br><br>
+</div>
+
+<div class="flex-table">
+    <div class="th" style="width: 100%">Don't see what you are looking for?<br>We can accomodate most needs</div>
+</div>
+
+<div class="flex-table mycenter">
+    <div class="td">
             <img src="/img/baseballjersey-henley.jpg"
                  alt="softball jersey"
                  style="width:150px;height:150px;"
                  class="img-responsive">
             <br>Pullover Jersey<br>Henley Collar
-        </td>
-        <td class="branch">
+    </div>
+    <div class="td">
             <img src="/img/softballjersey2.png"
                  alt="softball jersey"
                  style="width:150px;height:150px;"
                  class="img-responsive">
-            <br>Crewneck Pullover</td>
-        <td class="branch">
+            <br>Crewneck Pullover
+    </div>
+    <div class="td">
             <img src="/img/softballjersey.jpg"
                  alt="softball jersey"
                  style="width:150px;height:150px;"
                  class="img-responsive">
-            <br>Button Down Jersey</td>
-        <td class="branch">
+            <br>Button Down Jersey
+    </div>
+    <div class="td">
             <img src="/img/SoftballPants.png"
                  alt="softball pants"
                  style="width:150px;height:150px;"
                  class="img-responsive">
-            <br>Fancy Striped Pants</td>
-    </tr>
-</table>
+            <br>Fancy Striped Pants
+    </div>
+</div>
 
-</p>
-<p span style="font-size: 25px; text-align: center;">
+<div span style="font-size: 25px; text-align: center;">
+    <br>
     <a href="/contact">Get Started Today</a>
-</p>
+    <br><br>
+</div>

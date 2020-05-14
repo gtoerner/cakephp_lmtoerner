@@ -60,12 +60,12 @@
 <div class="myflex-table">
     <div class="myth">
 
-        <nav id="sidebar" slan style="background-color: #99D3FF">
+        <nav id="sidebar">
             <div class="sidebar-header">
                 <h4 span style="text-align: center">TeamSports</h4>
             </div>
 
-            <ul class="list-unstyled components" span style="text-align: center">
+            <ul class="list-unstyled components" span style="text-align: center; font-size: small">
                 <li class="nav-item">
                     <a class="dropdown-item-text" href="/pages/teamsports/baseball">Baseball</a>
                 </li>
