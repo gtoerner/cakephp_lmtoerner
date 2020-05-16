@@ -49,12 +49,25 @@ $this->assign('title', "T-Shirts");
     /* Rows & cells */
     div.th, div.td {
         box-sizing: border-box;
-        width: 25%;
+        width: 50%;
         padding: 10px;
         border: 1px solid black;
     }
 
     div.th {
+        font-weight: bold;
+        background: lightgray;
+        text-align: center;
+    }
+
+    div.myth, div.mytd {
+        box-sizing: border-box;
+        width: 25%;
+        padding: 10px;
+        border: 1px solid black;
+    }
+
+    div.myth {
         font-weight: bold;
         background: lightgray;
         text-align: center;
@@ -151,24 +164,24 @@ $this->assign('title', "T-Shirts");
 </p>
 
 <div class="flex-table">
-    <div class="th" style="width: 100%">T-Shirt Material & Design Specifications</div>
+    <div class="myth" style="width: 100%">T-Shirt Material & Design Specifications</div>
 </div>
 
 <!-- <div style="overflow-x: auto"> -->
 <div class="flex-table">
-    <div class="th">Material</div>
-    <div class="th">Material Weight</div>
-    <div class="th">Description</div>
-    <div class="th">Print Type Available</div>
+    <div class="myth">Material</div>
+    <div class="myth">Material Weight</div>
+    <div class="myth">Description</div>
+    <div class="myth">Print Type Available</div>
 
-    <div class="td">Cotton</div>
-    <div class="td">120 - 190gsm (4.5 - 6.5oz)</div>
-    <div class="td">100% Combed Cotton<br>Machine Washable</div>
-    <div class="td">SilkScreen<br>HeatPress<br>Applique<br>Embroidery</div>
+    <div class="mytd">Cotton</div>
+    <div class="mytd">120 - 190gsm (4.5 - 6.5oz)</div>
+    <div class="mytd">100% Combed Cotton<br>Machine Washable</div>
+    <div class="mytd">SilkScreen<br>HeatPress<br>Applique<br>Embroidery</div>
 
-    <div class="td">Polyester</div>
-    <div class="td">120 - 190gsm <br>(4.5 - 6.5oz)</div>
-    <div class="td">100% Polyester<br> Breathable<br> Stretchy<br> Dri-fit Wicking Technology<br>Machine Washable</div>
-    <div class="td">Sublimation<br>SilkScreen<br>HeatPress<br>Applique<br>Embroidery</div>
+    <div class="mytd">Polyester</div>
+    <div class="mytd">120 - 190gsm <br>(4.5 - 6.5oz)</div>
+    <div class="mytd">100% Polyester<br> Breathable<br> Stretchy<br> Dri-fit Wicking Technology<br>Machine Washable</div>
+    <div class="mytd">Sublimation<br>SilkScreen<br>HeatPress<br>Applique<br>Embroidery</div>
 
 </div>

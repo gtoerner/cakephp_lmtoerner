@@ -35,7 +35,7 @@ class ContactForm extends Form
     {
         // Send an email.
         $email = new Email('default');
-        $email->from([$data['email']=> $data['name']])->to('info@lmtoe.com')->subject('New Contact')->emailFormat('html')->send($data['body']);
+        $email->setFrom([$data['email']=> $data['name']])->setTo('info@geragear.com')->setSubject('New Contact')->setEmailFormat('html')->send($data['body']);
         return true;
     }
 }
