@@ -118,40 +118,40 @@ $this->assign('navItem', 'nav-item active');
 <div>
     <div class="td">
         <br>
-        <h1 class="mb-3" span style="text-align: center; font-size: 32px;">Quality Custom Apparel</h1>
-        <h1 class="mb-3" span style="text-align: center; font-size: 32px;">Amazing Prices</h1>
+        <h1 class="mb-3" span style="font-size: 32px;">Quality Custom Apparel</h1>
+        <h1 class="mb-3" span style="font-size: 32px;">Amazing Prices</h1>
         <br>
-        <p span style="font-size: 15px; text-align: center;">
-            We work directly with clothing maufacturers, eliminating the middleman and passing the savings onto you.<br>
+        <p span style="font-size: 15px;">
+            We work directly with clothing maufacturers, eliminating the middleman and passing the savings onto you.
             A Great quality product at a great price.<br>
         </p>
         <p><br></p>
-        <p span style="font-size: 25px; text-align: center;">
+        <p span style="font-size: 25px;">
             <a href="/contact">Get Started Today</a>
         </p>
         <p><br></p>
-        <p><br></p>
+        
 
-        <p span style="font-size: 28px; text-align: center;">
+        <p span style="font-size: 28px;">
             Teams
         </p>
-        <p span style="font-size: 15px; text-align: center;">
+        <p span style="font-size: 15px;">
             Customize your jersies to your liking.<br>
             Prices are all-inclusive - we don't nickle and dime <br>
             you to add a logo or other items
         </p>
         <p><br></p>
-        <p span style="font-size: 28px; text-align: center;">
+        <p span style="font-size: 28px;">
             Organizations
         </p>
-        <p span style="font-size: 15px; text-align: center;">
+        <p span style="font-size: 15px;">
             Add your company logo to any piece of clothing: t-shirt, polos, jackets, whatever the item we can acomodate
             most needs
         </p>
 
     </div>
     <p><br></p>
-    <p span style="font-size: 25px; text-align: center;">
+    <p span style="font-size: 25px;">
         <a href="/contact">Get Started Today</a>
     </p>
     <p><br></p>
